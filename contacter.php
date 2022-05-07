@@ -3,7 +3,7 @@
     use \Mailjet\Resources;
 
     define('API_USER','0b8a0215ff2ac5f0e49043ded14ce765');
-    define('API_LOGIN','edb2d13c74e777b367f6701d51de77fd');
+    define('API_LOGIN','');
     $mj = new \Mailjet\Client('API_USER','API_LOGIN',true,['version' => 'v3.1']);
 
     if(!empty($_POST['surname']) && !empty($_POST['firstname']) && !empty($_POST['email']) && !empty($_POST['message'])){
@@ -17,12 +17,12 @@
                 'Messages' => [
                   [
                     'From' => [
-                      'Email' => "maxime.lombard@live.com.mx",
+                      'Email' => "maxime.lombardglz@gmail.com",
                       'Name' => "Maxime"
                     ],
                     'To' => [
                       [
-                        'Email' => "maxime.lombard@live.com.mx",
+                        'Email' => "maxime.lombardglz@gmail.com",
                         'Name' => "Maxime"
                       ]
                     ],
